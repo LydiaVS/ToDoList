@@ -116,10 +116,21 @@ body {
 .div-list ul li:hover {
   background-color: #262e4c;
   color: #b1b2c9;
+}
+
+.div-list ul li:hover p {
   text-decoration: line-through;
 }
 
 .div-list ul li .btn-delete {
   cursor: pointer;
+  background-color: transparent;
+  color: #4a5b65;
+  border: none;
+}
+
+.div-list ul li .btn-delete:hover {
+  color: #b1b2c9;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
