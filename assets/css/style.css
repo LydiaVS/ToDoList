@@ -44,7 +44,7 @@ body {
 }
 
 .header {
-  border: 3px solid #1c2340;
+  border: 3px solid #26401c;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   width: 119vh;
@@ -110,5 +110,14 @@ body {
   background-color: #262e4c;
   color: #b1b2c9;
   text-decoration: line-through;
+}
+
+@media screen and (max-width: 800px) {
+  .header {
+    width: 300px;
+  }
+  .text {
+    margin-right: 45px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
