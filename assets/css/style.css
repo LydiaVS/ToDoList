@@ -44,7 +44,7 @@ body {
 }
 
 .header {
-  border: 3px solid #1c2340;
+  border: 3px solid #26401c;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   width: 119vh;
@@ -94,6 +94,14 @@ body {
 }
 
 .div-list ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   cursor: pointer;
   padding: 12px 0;
   background: #171d37;
@@ -102,13 +110,27 @@ body {
   transition: 0.2s;
   text-decoration: none;
   list-style: none;
-  text-align: center;
   border: 1px solid #1c2340;
 }
 
 .div-list ul li:hover {
   background-color: #262e4c;
   color: #b1b2c9;
+}
+
+.div-list ul li:hover p {
   text-decoration: line-through;
+}
+
+.div-list ul li .btn-delete {
+  cursor: pointer;
+  background-color: transparent;
+  color: #4a5b65;
+  border: none;
+}
+
+.div-list ul li .btn-delete:hover {
+  color: #b1b2c9;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
